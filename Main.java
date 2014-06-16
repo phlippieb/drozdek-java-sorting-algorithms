@@ -1,7 +1,12 @@
 public class Main {
 	public static void main(String[] args) {
-		int[] a = {21055, 6, 47, 5, 12345, 11, 80, 100, 3, 2};
+		
+		/*
+		 * The sorter to use can be changed by changing the class below: */
 		Sorter s = new Counting();
+
+		// other stuff...
+		int[] a = {21055, 6, 47, 5, 12345, 11, 80, 100, 3, 2};
 		s.sort(a);
 
 		if (!isSorted(a)) {
