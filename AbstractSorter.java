@@ -6,4 +6,10 @@ public abstract class AbstractSorter implements Sorter {
 			System.out.print(a[i]+",");
 		System.out.println(a[i]+"]");
 	}
+
+	void swap(int[] data, int l, int r) {
+		int tmp = data[l];
+		data[l] = data[r];
+		data[r] = tmp;
+	}
 }
