@@ -1,7 +1,7 @@
 public class Main {
 	public static void main(String[] args) {
 		int[] a = {21055, 6, 47, 5, 12345, 11, 80, 100, 3, 2};
-		Sorter s = new Quick();
+		Sorter s = new Counting();
 		s.sort(a);
 
 		if (!isSorted(a)) {
